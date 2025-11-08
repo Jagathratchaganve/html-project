@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="JAGAN">
+    <meta name="description" content="Contact Starbucks Coffee Shop">
+    <link rel="icon" href="image/startbucks.png" type="image/x-icon">
+    <link rel="stylesheet" href="st.css" type="text/css">
+    <title>CONTACT US</title>
+</head>
+
+<body>
+
+    <!-- Page Wrapper -->
+    <div class="page-container">
+
+        <!-- Header -->
+        <header>
+            <h1><strong>CONTACT US</strong></h1>
+
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="sampleproject.html">HOME</a></li>
+                    <li><a href="sampleproject.html#aboutus">About <abbr title="STAR BUCKS">ST</abbr></a></li>
+                    <li><a href="sampleproject.html#menu">Menu</a></li>
+                    <li><a href="storehours.html">Store Hours</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contact Image -->
+        <figure>
+            <img src="image/contact.png"
+                 alt="Contact Us Icon"
+                 title="CONTACT US"
+                 width="200"
+                 height="200">
+            <figcaption>STAR BUCKS</figcaption>
+        </figure>
+
+        <hr>
+
+        <!-- Contact Form Section -->
+        <section id="contactus">
+            <h2>CONTACT FORM</h2>
+
+            <form action="https://httpbin.org/post" method="post">
+
+                <fieldset>
+                    <legend>Send Us A Message</legend>
+
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text"
+                               id="name"
+                               name="name"
+                               placeholder="Your name"
+                               required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               placeholder="Your email"
+                               required>
+                    </p>
+
+                    <p>
+                        <label for="message">Message:</label>
+                        <textarea id="message"
+                                  name="message"
+                                  placeholder="Type your message here"
+                                  required></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit"
+                                formaction="https://httpbin.org/post"
+                                formmethod="post">
+                            Submit
+                        </button>
+
+                        <button type="reset">Reset</button>
+                    </p>
+
+                </fieldset>
+
+            </form>
+
+            <hr>
+
+            <!-- Store Location -->
+            <h2>OUR LOCATION</h2>
+
+            <address>
+                123 Coffee St,<br>
+                Seattle, WA 98101
+            </address>
+
+            <p>
+                Phone:
+                <a href="tel:+12065550123">(206) 555-0123</a>
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <p><a href="sampleproject.html">BACK TO HOME</a></p>
+            <p><a href="#">BACK TO TOP</a></p>
+            <hr>
+            <p>&copy; <time datetime="2025">2025</time> STAR BUCKS</p>
+        </footer>
+
+    </div> <!-- End page-container -->
+
+</body>
+
+</html>

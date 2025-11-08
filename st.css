@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td, caption {
+    border: 3px solid #026936;
+    padding: .5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.page-container {
+    max-width: 900px;            /* width like a document */
+    margin: 20px auto;           /* center the page */
+    padding: 20px;               /* inner spacing */
+    border: 5px solid #026936;   /* big outer border */
+    border-radius: 12px;         /* round edges (optional) */
+    background: #ffffff;         /* clean background */
+}
